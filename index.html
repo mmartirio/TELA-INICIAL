@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/index.css">
+    <script defer src="./script.js"></script>
+</head>
+<body>
+    <!--Login do usuario-->
+    <h1 class="cabeca">Projeto DEV</h1>
+    <div class="login">
+        <form class="formLogin" action="#" method="get">
+            <h1 class="logText">Login</h1>
+            <label class="textLogin" for="emailLogin">E-mail</label>
+            <input id="emailLogin" type="email" placeholder="Digite seu e-mail" required>
+
+            <label class="textLogin"  for="senhaLogin">Senha</label>
+            <input id="senhaLogin" type="password" placeholder="Digite sua senha" required>
+
+            <input id="btnLogin" type="submit" value="Login ">
+            <input id="btnCadastro" type="submit" value="cadastre-se">
+            <a class="recupera" href="#">Esqueci a senha</a>
+        </form>
+    </div>
+
+    <!--Cadastro de usuario-->
+    <div class="cadastro">
+        <form class="formCadastro" action="" method="get" target="_self">
+            <h1 class="cadText">Cadastre-se</h1>
+
+            <label class="textCadastro"  for="nomeCadastro">Nome</label>
+            <input id="nomeCadastro" type="text" placeholder="Digite seu nome" onchange="ligaButton()" required>
+
+            <label class="sobrenomeCadastro"  for="sobrenomeCadastro">Sobrenome</label>
+            <input id="sobrenomeCadastro" type="text" placeholder="Digite seu sobrenome" onchange="ligaButton()" required>
+
+            <label class="textCadastro"  for="emailCadastro">E-mail</label>
+            <input id="emailCadastro" type="email" placeholder="Digite seu e-mail" onchange="ligaButton()" required>
+
+            <label class="textCadastro" for="senhaCadastro">Senha</label>
+            <input id="senhaCadastro" type="password" placeholder="Digite sua senha" onchange="ligaButton()" required>
+
+            <input id="btnCadastrar" type="submit" value="cadastrar" disabled>
+
+            <a href="./test.html"><input id="btnReturn" type="button" value="Voltar"></a>
+        </form>
+    </div>
+</body>
+</html>
