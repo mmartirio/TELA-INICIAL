@@ -9,26 +9,27 @@ body{
     }
 
     .recupera {
-        width: 100%;
-        padding: .5em;
+        padding: .1em;
         background-color: rgb(97, 97, 169);
     }
 
     .recupera h1 {
-        margin-bottom: .5em;
-        padding: 0 0 .8em;
+        margin-bottom: .2em;
+        padding: 0 0 .2em;
         color: #fff;
     }
 
     .recupera label {
         color: #fff;
-        font-weight: bold;
+        font-weight: 400;
+        margin-left: 12%;
+        font-size: 12pt;
     }
 
     .recupera input {
         padding: .2em 5em;
         text-align: justify;
-        margin-bottom: 1em;
+        margin-bottom: .3em;
         text-decoration: none;
         cursor: pointer;
         border: none;
@@ -36,10 +37,34 @@ body{
         outline: none;
     }
 
-    .recupera button {
-        padding: .2em 1.2em;
+    .recupera #enviaRecupercao {
         color: #fff;
         background-color: rgb(53, 53, 59);
-        margin-right: 12%;
         font-size: 10pt;
+        padding: .2em 1em;
+        border: 1px solid #222;
+    }
+
+    .recupera #enviaRecupercao:hover {
+        background-color: #3d3d3d;
+    }
+
+    .recupera #enviaRecupercao:active {
+        color: #a3a2a2;
+        border-color: rgba(75, 74, 74, 0.067);
+    }
+
+    .recupera p {
+        color: #fff;
+        font-size: 10pt;
+        font-weight: 400;
+    }
+
+    .recupera a {
+        color: #2e2e2e;
+        font-size: 11pt;
+        font-weight: 500;
+    }
+    .recupera a:hover {
+        color: #f5f3f3;
     }
