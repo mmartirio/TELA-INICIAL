@@ -24,7 +24,7 @@ Este é um projeto simples de página de login e cadastro de usuário. Ele foi c
    git clone [https://github.com/mmartirio/TELA-INICIAL]
    ```
 
-2. Abra o arquivo `index.html` em um navegador da web.
+2. Abra o arquivo https://mmartirio.github.io/TELA-INICIAL/ em um navegador da web.
 
 3. Preencha os campos de login ou clique no link "Cadastre-se" para criar uma nova conta.
 
