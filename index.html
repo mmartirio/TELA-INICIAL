@@ -9,7 +9,7 @@
 </head>
 <body>
     <!--Login do usuario-->
-    <h1 class="cabeca">Projeto DEV</h1>
+    <h1 class="title">Projeto DEV</h1>
     <div class="login">
         <form class="formLogin" action="#" method="get">
             <h1 class="logText">Login</h1>
@@ -20,7 +20,7 @@
             <input id="senhaLogin" type="password" placeholder="Digite sua senha" required>
 
             <input id="btnLogin" type="submit" value="Login ">
-            <input id="btnCadastro" type="submit" value="cadastre-se">
+            <input id="btnCadastro" type="submit" value="cadastre-se" onclick="mostraCad()">
             <a class="recupera" href="#">Esqueci a senha</a>
         </form>
     </div>
@@ -42,9 +42,9 @@
             <label class="textCadastro" for="senhaCadastro">Senha</label>
             <input id="senhaCadastro" type="password" placeholder="Digite sua senha" onchange="ligaButton()" required>
 
-            <input id="btnCadastrar" type="submit" value="cadastrar" disabled>
+            <input id="btnCadastrar" type="submit" value="cadastrar" onclick="mostraLog()" disabled>
 
-            <a href="./test.html"><input id="btnReturn" type="button" value="Voltar"></a>
+            <a href="./index.html"><input id="btnReturn" type="button" value="Voltar"></a>
         </form>
     </div>
 </body>

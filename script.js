@@ -1,11 +1,11 @@
-//Criação uma animação para a mudança de tela de login para tela de cadastro
+//Criação uma animação para a mudança de tela de login para tela
 var Cadastrese = document.querySelector('#btnCadastro');
 var login = document.querySelector('.login');
 var Cadastrar = document.querySelector('#btnCadastrar');
 var cadastro = document.querySelector('.cadastro');
 
-Cadastrese = addEventListener('click', function(){
-if (login.style.display == 'block', cadastro.style.display == 'none'){
+Cadastrese = addEventListener('click', function mostraCad(){
+if (login.style.display === 'block', cadastro.style.display === 'none'){
     login.style.display = 'none', cadastro.style.display = 'block'
 }
 else {
@@ -13,8 +13,8 @@ else {
 }
 })
 
-Cadastrar = addEventListener('click', function(){
-    if (cadastro.style.display == 'block', login.style.display == 'none'){
+Cadastrar = addEventListener('click', function mostraLog(){
+    if (cadastro.style.display === 'block', login.style.display === 'none'){
         cadastro.style.display = 'none', login.style.display = 'block'
     }
     else {
