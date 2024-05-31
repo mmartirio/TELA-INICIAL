@@ -13,7 +13,7 @@ else {
 }
 })
 
-Cadastrar = addEventListener('click', function mostraLog(){
+Cadastrar = addEventListener('click', function mostraLog()  {
     if (cadastro.style.display === 'block', login.style.display === 'none'){
         cadastro.style.display = 'none', login.style.display = 'block'
     }

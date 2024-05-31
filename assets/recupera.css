@@ -1,0 +1,45 @@
+body{
+    width: 100%;
+    margin: 0 auto;
+    background: url(./img/HTML_IMAGE.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .recupera {
+        width: 100%;
+        padding: .5em;
+        background-color: rgb(97, 97, 169);
+    }
+
+    .recupera h1 {
+        margin-bottom: .5em;
+        padding: 0 0 .8em;
+        color: #fff;
+    }
+
+    .recupera label {
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .recupera input {
+        padding: .2em 5em;
+        text-align: justify;
+        margin-bottom: 1em;
+        text-decoration: none;
+        cursor: pointer;
+        border: none;
+        overflow: hidden;
+        outline: none;
+    }
+
+    .recupera button {
+        padding: .2em 1.2em;
+        color: #fff;
+        background-color: rgb(53, 53, 59);
+        margin-right: 12%;
+        font-size: 10pt;
+    }
